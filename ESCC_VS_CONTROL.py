@@ -17,7 +17,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 mpl.rcParams['figure.dpi'] = 300
 
 #IMPORTING_DATASET
-dataset = pd.read_csv("ESCC vs NORMAL.csv")
+dataset = pd.read_csv("ESCC vs CONTROL.csv")
 dataset.head()
 
 dataset["SAMPLES"].value_counts()
